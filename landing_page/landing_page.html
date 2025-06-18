@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGM Solutions</title>
+    <link rel="stylesheet" href="../css/landing_page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="../img/logo/logo.png" alt="Logo AGM" />
+        </div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#id_nosotros">About</a></li>
+            <li><a href="#id_servicios">Services</a></li>
+            <li><a href="#id_contactanos">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+        <h2 class="title">
+          Integral Business Solutions<br />
+          "Optimize Your Company"
+        </h2>
+        <a href="#id_contactanos" class="contact-button">CONTACT US NOW</a>
+      </div>
+    </main>
+    <section id="id_nosotros" class="about-section" >
+      <div class="container">
+        <h3 class="section-title">About Us</h3>
+        <div class="title-underline"></div>
+        <div class="about-content"></div>
+        <p class="about-text">
+          At AGM Business Solutions, we are a strategic partner in<br />
+          digital transformation. We offer comprehensive solutions in training,
+          web design, artificial intelligence, and business consulting. Our
+          focus is on creating value, building trust, and connecting with
+          companies, entrepreneurs, leaders, and public organizations seeking to
+          innovate and grow.<br>
+          We drive growth and innovation in your organization; combining technology, strategy, and expertise to help you face today's challenges with effective and personalized tools.
+        </p>
+      </div>
+      <div class="image-slideshow">
+        <img src="../img/img1.jpg" alt="About Us" class="active" />
+        <img src="../img/img2.jpg" alt="About Us" />
+        <img src="../img/img3.jpg" alt="About Us" />
+      </div>
+    </section>
+    <section id="id_servicios" class="pricing-section">
+      <div class="container">
+        <h3 class="section-title">Our Services</h3>
+        <div class="section-title-underline"></div>
+        <div class="pricing-grid">
+          <div class="pricing-plan">
+            <h4 class="plan-title">Online Training Courses</h4>
+
+            <p class="plan-description">Boost Your Talent and Your Business.</p>
+            <ul class="features-list">
+              <li><i class="fas fa-check-circle"></i>Public Innovation</li>
+              <li><i class="fas fa-check-circle"></i>Govtech</li>
+              <li>
+                <i class="fas fa-check-circle"></i>Digital Transformation
+              </li>
+              <li><i class="fas fa-check-circle"></i>Gender Perspective</li>
+              <li>
+                <i class="fas fa-check-circle"></i>Environmental Protection
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Attention to Children /
+                Adolescents and Responsible Parenting
+              </li>
+            </ul>
+            <button class="plan-button" onclick="openModal('modal1')">
+              View More <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <div class="pricing-plan">
+            <h4 class="plan-title">Website<br> Design</h4>
+
+            <p class="plan-description">
+              Professional Website Design: Your Digital Presence, Our Drive
+            </p>
+            <ul class="features-list">
+              <li>
+                <i class="fas fa-check-circle"></i>Custom designs that stand
+                out
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Focus on User Experience
+                (UX) and Usability (UI): consistency, affordance,
+                predictability, feedback, learnability
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Responsive design and mobile
+                optimization
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Integrated Search Engine
+                Optimization (SEO)
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>
+                Web security (SSL certificates)
+              </li>
+            </ul>
+            <button class="plan-button" onclick="openModal('modal2')">
+              View More <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <div class="pricing-plan">
+            <h4 class="plan-title">AI-Powered Receptionist Assistant</h4>
+
+            <p class="plan-description">
+              AI Assistant/Receptionist: 24/7 Efficiency and Service for Your
+              Business.
+            </p>
+            <ul class="features-list">
+              <li>
+                <i class="fas fa-check-circle"></i>Chatbots and Phonebots
+                (omnichannel interaction)
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Scalability to handle high
+                volumes of inquiries
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Integration with existing
+                tools (CRM, calendars)
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Continuous self-learning and
+                adaptability
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Data security and privacy
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Escalation capabilities to
+                human agents
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Personalized interactions
+              </li>
+            </ul>
+            <button class="plan-button" onclick="openModal('modal3')">
+              View More <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="pricing-plan">
+            <h4 class="plan-title">Comprehensive Business Solutions</h4>
+
+            <p class="plan-description">
+              Comprehensive Business Solutions: Transform and Optimize Your
+              Company.
+            </p>
+            <ul class="features-list">
+              <li>
+                <i class="fas fa-check-circle"></i>Process optimization,
+                improved performance, and competitiveness
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Enhanced innovation capacity
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Business growth and economic
+                benefit
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Accounting, financial, and
+                technology consulting
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Custom software development
+              </li>
+
+              <li>
+                <i class="fas fa-check-circle"></i>Systems integration (ERP,
+                CRM, HR)
+              </li>
+            </ul>
+            <button class="plan-button" onclick="openModal('modal4')">
+              View More <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="facts-section">
+      <div class="container">
+        <h3 class="section-title">
+          Data that supports the quality of our work
+        </h3>
+        <div class="facts-underline"></div>
+        <div class="facts-grid">
+          <div class="fact-item">
+            <span class="fact-number">+35</span>
+            <p class="fact-description">Satisfied Customers</p>
+          </div>
+          <div class="fact-item">
+            <span class="fact-number">+37</span>
+            <p class="fact-description">Projects Successfully Finished</p>
+          </div>
+          <div class="fact-item">
+            <span class="fact-number">+99</span>
+            <p class="fact-description">Uptime %</p>
+          </div>
+          <div class="fact-item">
+            <span class="fact-number">4</span>
+            <p class="fact-description">Hours Max. Response Time</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="id_contactanos" class="form">
+      <div>
+        <h2>Contact Us</h2>
+        <div class="form-underline"></div>
+        <form class="form-form">
+          <ul class="form-fields">
+            <li>
+              <label class="form-name">Name</label>
+              <input type="name" placeholder="Nombre" />
+            </li>
+            <li>
+              <label class="form-name">Phone</label>
+              <input type="phone" placeholder="+57 3154985621" />
+            </li>
+            <li>
+              <label class="form-name">Email</label>
+              <input type="email" placeholder="ejemplo@email.com" />
+            </li>
+            <li>
+              <label class="form-name">Menssage</label>
+              <textarea placeholder="Dejanos un mensaje"> </textarea>
+            </li>
+            <li>
+              <button type="submit" class="form-button">Send</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <div class="social">
+        <p>Follow Us on Our Social Media</p>
+        <ul class="social-networks">
+          <li>
+            <a class="contact" href="https://wa.me/13364734969">
+              <img src="../img/iconos/whatsapp.png" alt="Logo whatsapp AGM" />
+            </a>
+          </li>
+          <li>
+            <a
+              class="contact"
+              href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Des_ES"
+              ><img src="../img/iconos/facebook.png" alt="Logo Facebook AGM" />
+            </a>
+          </li>
+          <li>
+            <a class="contact" href="https://www.linkedin.com/"
+              ><img src="../img/iconos/linkedin.png" alt="Logo Linkedin AGM" />
+            </a>
+          </li>
+          <li>
+            <a class="contact" href="https://www.instagram.com/"
+              ><img
+                src="../img/iconos/instagram.png"
+                alt="Logo Instagram AGM"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer-legal-security">
+      <section>
+        <h2>Legal and Security Aspects</h2>
+      </section>
+      <section class="footer-legal-security-content">
+        <div class="footer-legal-security-content-item">
+          <h3>Privacy Policy</h3>
+          <p>
+            -Inform about the collection, use, and storage of personal data.
+            <br />-Obtain informed consent from the data subject for data processing. <br />-Proper handling of sensitive and restricted-access data. <br />-Mention the Agency for the Protection of Inhabitants' Data (Prodhab) as the regulatory authority.
+          </p>
+        </div>
+
+        <div>
+          <h3>Web Security</h3>
+          <p>
+            -Implementation of SSL certificates for secure connections. <br />-
+            Systems for protection against malware and cyberattacks. <br />
+            -Ensure the security, integrity, and confidentiality of transactions and payments.
+          </p>
+        </div>
+        <div>
+          <h3>Terms and Conditions of Service</h3>
+          <p>
+            - Accessible before any purchase or significant interaction.
+            <br />-Specify procedures for payment, delivery, complaints, right of withdrawal, and warranties.
+          </p>
+        </div>
+      </section>
+    </footer>
+    <div class="scroll-indicator"></div>
+    <script src="../js/landing_page.js"></script>
+
+    <!-- Modal Structures -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <span class="close-button" onclick="closeModal('modal1')">&times;</span>
+        <h2>Online Training Courses</h2>
+        <div class="modal-body">
+          <h3>Boost Your Talent and Your Business</h3>
+          <p>Our comprehensive online training programs are designed to enhance your skills and drive business growth. We offer specialized courses in:</p>
+          <ul>
+            <li>Public Innovation</li>
+            <li>Govtech Solutions</li>
+            <li>Digital Transformation</li>
+            <li>Gender Perspective</li>
+            <li>Environmental Protection</li>
+            <li>Child and Adolescent Care</li>
+            <li>Responsible Parenting</li>
+          </ul>
+          <p>Each course is carefully crafted by industry experts and includes practical exercises, real-world case studies, and certification upon completion.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <span class="close-button" onclick="closeModal('modal2')">&times;</span>
+        <h2>Website Design</h2>
+        <div class="modal-body">
+          <h3>Professional Website Design: Your Digital Presence, Our Drive</h3>
+          <p>We create stunning, functional websites that help your business stand out online. Our services include:</p>
+          <ul>
+            <li>Custom, unique designs tailored to your brand</li>
+            <li>User Experience (UX) and Usability (UI) optimization</li>
+            <li>Mobile-responsive design</li>
+            <li>Search Engine Optimization (SEO)</li>
+            <li>SSL security implementation</li>
+          </ul>
+          <p>Our team ensures your website not only looks great but also performs exceptionally well across all devices and platforms.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <span class="close-button" onclick="closeModal('modal3')">&times;</span>
+        <h2>AI-Powered Receptionist Assistant</h2>
+        <div class="modal-body">
+          <h3>24/7 Efficiency and Service for Your Business</h3>
+          <p>Our AI-powered solutions provide round-the-clock support for your business needs:</p>
+          <ul>
+            <li>Advanced Chatbots and Phonebots for omnichannel interaction</li>
+            <li>High-volume inquiry handling</li>
+            <li>Seamless integration with existing tools</li>
+            <li>Continuous learning and adaptation</li>
+            <li>Enhanced data security and privacy</li>
+            <li>Human agent escalation when needed</li>
+            <li>Personalized customer interactions</li>
+          </ul>
+          <p>Transform your customer service with our cutting-edge AI technology.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <span class="close-button" onclick="closeModal('modal4')">&times;</span>
+        <h2>Comprehensive Business Solutions</h2>
+        <div class="modal-body">
+          <h3>Transform and Optimize Your Company</h3>
+          <p>Our comprehensive business solutions help you achieve operational excellence:</p>
+          <ul>
+            <li>Process optimization and performance improvement</li>
+            <li>Innovation capacity enhancement</li>
+            <li>Business growth strategies</li>
+            <li>Accounting and financial consulting</li>
+            <li>Custom software development</li>
+            <li>Systems integration (ERP, CRM, HR)</li>
+          </ul>
+          <p>Partner with us to drive sustainable growth and success for your business.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
