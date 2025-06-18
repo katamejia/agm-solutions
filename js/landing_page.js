@@ -112,37 +112,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Modal functionality
-    function openModal(modalId) {
-        const modal = document.getElementById(modalId);
-        modal.style.display = "block";
-        document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
-    }
-
-    function closeModal(modalId) {
-        const modal = document.getElementById(modalId);
-        modal.style.display = "none";
-        document.body.style.overflow = "auto"; // Re-enable scrolling
-    }
-
-    // Close modal when clicking outside of it
-    window.onclick = function(event) {
-        if (event.target.classList.contains('modal')) {
-            event.target.style.display = "none";
-            document.body.style.overflow = "auto";
-        }
-    }
-
-    // Close modal when pressing Escape key
-    document.addEventListener('keydown', function(event) {
-        if (event.key === "Escape") {
-            const modals = document.getElementsByClassName('modal');
-            for (let modal of modals) {
-                if (modal.style.display === "block") {
-                    modal.style.display = "none";
-                    document.body.style.overflow = "auto";
-                }
-            }
-        }
-    });
-});
+    
