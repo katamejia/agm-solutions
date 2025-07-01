@@ -421,6 +421,7 @@ body {
     background-color: #2d68a7; 
     color: white;
     padding: 15px 30px;
+    border:0;
     border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
@@ -721,7 +722,7 @@ textarea {
   }
 
   .social {
-    width: 100%;
+   width: 100%;
     margin-top: 30px;
   }
 
@@ -733,7 +734,7 @@ textarea {
 }
 
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575px){
   .header .container {
     flex-wrap: wrap;
   }
@@ -845,11 +846,8 @@ textarea {
   .footer-legal-security .footer-legal-security-content {
     padding: 0 15px;
   }
-}
 
-
-
-.close-button {
+   .close-button {
   position: absolute;
   right: 20px;
   top: 15px;
@@ -860,63 +858,44 @@ textarea {
   transition: color 0.3s ease;
 }
 
+   .close-button:hover {
+  color: #2d68a7;
+}
+
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  
+}
+.modal-content {
+  color: #666;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  height: 600px;
+  position: relative;
+  text-align: justify;
+}
+.close-button {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #666;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
 .close-button:hover {
   color: #2d68a7;
-}
-
-.modal-body {
-  margin-top: 20px;
-}
-
-.modal-body h3 {
-  color: #2d68a7;
-  margin-bottom: 15px;
-  font-size: 20px;
-}
-
-.modal-body p {
-  color: #666;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.modal-body ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-
-.modal-body ul li {
-  color: #555;
-  padding: 8px 0;
-  padding-left: 25px;
-  position: relative;
-}
-
-.modal-body ul li:before {
-  content: "•";
-  color: #2d68a7;
-  position: absolute;
-  left: 0;
-  font-size: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .modal-content {
-    width: 90%;
-    margin: 10% auto;
-    padding: 20px;
-  }
-}
-
-@media screen and (max-width: 575px) {
-  .modal-content {
-    width: 95%;
-    margin: 15% auto;
-    padding: 15px;
-  }
-  
-  .modal-body h3 {
-    font-size: 18px;
-  }
 }
