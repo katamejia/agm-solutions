@@ -225,3 +225,40 @@ textarea {
 .social-networks img:hover {
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 768px) {
+
+  .form {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .form .form-fields input,
+  .form .form-fields textarea {
+    width: 100%;
+  }
+
+  .social {
+    width: 100%;
+     margin-top: 30px;
+   }
+}
+
+@media screen and (max-width: 575px){
+  .form {
+    padding: 15px;
+  }
+
+  .form h2 {
+    font-size: 20px;
+  }
+
+  .form-underline {
+    margin: 0 auto 30px;
+  }
+
+  .social-networks {
+    flex-wrap: wrap;
+  }
+
+}
