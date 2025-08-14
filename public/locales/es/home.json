@@ -1,0 +1,241 @@
+{
+    
+    "main": {
+        "main_title": "Soluciones Empresariales Integrales",
+        "main_subtitle": "Optimiza Tu Empresa",
+        "button_text": "CONTÁCTANOS AHORA"
+    },
+
+    "about_us_section": {
+        "about_us_title": "Sobre Nosotros",
+        "about_us_text": "En AGM Business Solutions, somos un socio estratégico en la transformación digital. Ofrecemos soluciones integrales en capacitación, diseño web, inteligencia artificial y consultoría empresarial. Nuestro enfoque está en crear valor, construir confianza y conectar con empresas, emprendedores, líderes y organizaciones públicas que buscan innovar y crecer.",
+        "about_us_two_text": "Impulsamos el crecimiento y la innovación en tu organización, combinando tecnología, estrategia y experiencia para ayudarte a enfrentar los desafíos de hoy con herramientas efectivas y personalizadas."
+    },
+
+   
+    "pricing_section_our_services":{
+        "pricing_section_title":"Nuestros Servicios",
+        "services_list":[
+            {
+                "id":1,
+                "title":"Cursos de Capacitación en Línea",
+                "description":"Impulsa tu Talento y tu Negocio.",
+                "cta_button_text":"Ver mas",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"Innovación Pública"
+                    },
+                    
+                    {
+                        "id":2,
+                        "name":"Govtech"
+                    },
+
+                    {
+                        "id":3,
+                        "name":"Transformación Digital"
+                    },
+
+                    {
+                        "id":4,
+                        "name":"Perspectiva de Género"
+                    },
+
+                    {
+                        "id":5,
+                        "name":"Protección del Medio Ambiente"
+                    },
+
+                    {
+                        "id":6,
+                        "name":"Niñez/Adolescencia y Crianza"
+                    }
+                ]
+
+            },
+
+            {
+                "id":2,
+                "title":"Diseño de Sitios Web",
+                "description":"Diseño Profesional de Sitios Web: Tu Presencia Digital, Nuestra Motivación.",
+                "cta_button_text":"Ver mas",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"Diseños personalizados que destacan"
+                    },
+                    
+                    {
+                        "id":2,
+                        "name":"UX/UI: coherencia, retroalimentación, facilidad de aprendizaje"
+                    },
+
+                    {
+                        "id":3,
+                        "name":"Diseño responsivo y optimizado para móviles"
+                    },
+
+                    {
+                        "id":4,
+                        "name":"SEO integrado"
+                    },
+
+                    {
+                        "id":5,
+                        "name":"Seguridad web (SSL)"
+                    }
+                ]
+
+            },
+
+            {
+                "id":3,
+                "title":"Asistente Recepcionista Potenciado por IA",
+                "description":"Asistente con IA: Eficiencia y Servicio 24/7 para Tu Negocio.",
+                "cta_button_text":"Ver mas",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"Chatbots y Phonebots"
+                    },
+                    
+                    {
+                        "id":2,
+                        "name":"Escalabilidad"
+                    },
+
+                    {
+                        "id":3,
+                        "name":"Integración con CRM y calendarios"
+                    },
+
+                    {
+                        "id":4,
+                        "name":"IA con autoaprendizaje"
+                    },
+
+                    {
+                        "id":5,
+                        "name":"Privacidad de datos"
+                    },
+
+                    {
+                        "id":6,
+                        "name":"Escalamiento a agentes humanos"
+                    },
+
+                    {
+                        "id":7,
+                        "name":"Servicio personalizado"
+                    }
+                ]
+
+            }
+            
+        ]
+        
+    },
+
+    
+    "facts_section":{
+        "facts_section_title":"Datos que respaldan la calidad de nuestro trabajo",
+        "facts_list":[
+            {
+                "id":1,
+                "fact_number":"+35",
+                "fact_description":"Clientes satisfechos"
+            },
+
+            {
+                "id":2,
+                "fact_number":"+37",
+                "fact_description":"Proyectos finalizados"
+            },
+
+            {
+                "id":3,
+                "fact_number":"+99",
+                "fact_description":"% de tiempo en línea "
+            },
+
+            {
+                "id":4,
+                "fact_number":"4",
+                "fact_description":"Tiempo máximo de respuesta (horas)"
+            }
+         ]
+    },
+
+    "contact_form":{
+        "contact_form_title":"Contáctanos",
+        "contact_form_button_text":"Enviar",
+        "contact_form_items":[
+            {
+                "id":1,
+                "label":"Nombre",
+                "type":"text",
+                "placeholder":"Nombre"
+            },
+            {
+                "id":2,
+                "label":"Telefono",
+                "type":"text",
+                "placeholder":"+57 3154985621"
+            },
+            {
+                "id":3,
+                "label":"Correo",
+                "type":"email",
+                "placeholder":"ejemplo@email.com"
+            },
+            {
+                "id":4,
+                "label":"Mensaje",
+                "type":"textarea",
+                "placeholder":"Déjanos un mensaje"
+            }
+        ]
+    },
+
+    "social":{
+        "social_title":"Síguenos en nuestras redes sociales",
+        "social_networks_list":[
+            {
+                "id":1,
+                "link":"https://wa.me/13364734969",
+                "img":"img/iconos/whatsapp.png",
+                "target":"_blank",
+                "alt":"Whatsapp"
+            
+            },
+            {
+                "id":2,
+                "link":"https://www.facebook.com/profile.php?id=61577210383492",
+                "img":"img/iconos/facebook.png",
+                "target":"_blank",
+                "alt":"Facebook" 
+            
+            },
+            {
+                "id":3,
+                "link":"https://www.linkedin.com/",
+                "img":"img/iconos/linkedin.png",
+                "target":"_blank",
+                "alt":"Linkedin"
+            
+            },
+            {
+                "id":4,
+                "link":"https://www.instagram.com/agm_business_solution/",
+                "img":"img/iconos/instagram.png",
+                "target":"_blank",
+                "alt":"Instagram"
+            
+            }
+        ]
+    }
+    
+}
+
+

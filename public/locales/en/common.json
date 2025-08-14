@@ -1,0 +1,82 @@
+{
+    "header": [
+        {
+        "name": "About Us",
+        "href": "#about-us"
+        },
+        {
+        "name": "Services",
+         "href": "#services"
+        },
+        {
+        "name": "Contact Us",
+         "href": "#contact-us"
+        }
+    ],
+
+    "footer_section":{
+        "footer_section_title":"Legal and Security Aspects",
+        "footer_section_list":[
+            {
+                "id":1,
+                "title":"Privacy Policy",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"Collection, use, and storage of personal data."
+                    },
+                    {
+                        "id":2,
+                        "name":"Informed consent for processing."
+                    },
+                    {
+                        "id":3,
+                        "name":"Sensitive data handling."
+                    },
+                    {
+                        "id":4,
+                        "name":"Supervision: PRODHAB."
+                    }
+                ]
+            },
+
+            {
+                "id":2,
+                "title":"Web Security",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"SSL certificates."
+                    },
+                    {
+                        "id":2,
+                        "name":"Malware protection."
+                    },
+                    {
+                        "id":3,
+                        "name":"Secure payments."
+                    }
+                   
+                ]
+            },
+
+            {
+                "id":3,
+                "title":"Terms and Conditions",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"Shown before transactions."
+                    },
+                    {
+                        "id":2,
+                        "name":"Payment, delivery, claims, withdrawal, warranties."
+                    }
+                   
+                ]
+            }
+        ]
+    
+      
+    }
+}

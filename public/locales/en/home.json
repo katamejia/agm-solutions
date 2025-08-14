@@ -1,0 +1,241 @@
+{
+ 
+   "main": {
+    "main_title": "Integral Business Solutions",
+    "main_subtitle": "Optimize Your Company",
+    "button_text": "CONTACT US NOW"
+    },
+
+    "about_us_section": {
+        "about_us_title": "About Us",
+        "about_us_text": "At AGM Business Solutions, we are a strategic partner in digital transformation. We offer comprehensive solutions in training, web design, artificial intelligence, and business consulting. Our focus is on creating value, building trust, and connecting with companies, entrepreneurs, leaders, and public organizations seeking to innovate and grow.",
+        "about_us_two_text": "We drive growth and innovation in your organization; combining technology, strategy, and expertise to help you face today's challenges with effective and personalized tools."
+    },
+
+
+    "pricing_section_our_services":{
+        "pricing_section_title":"Our Services",
+        "services_list":[
+            {
+                "id":1,
+                "title":"Online Training Courses",
+                "description":"Boost Your Talent and Your Business.",
+                "cta_button_text":"View More",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"Public Innovation"
+                    },
+                    
+                    {
+                        "id":2,
+                        "name":"Govtech"
+                    },
+
+                    {
+                        "id":3,
+                        "name":"Digital Transformation"
+                    },
+
+                    {
+                        "id":4,
+                        "name":"Gender Perspective"
+                    },
+
+                    {
+                        "id":5,
+                        "name":"Environmental Protection"
+                    },
+
+                    {
+                        "id":6,
+                        "name":"Children/Adolescents and Parenting"
+                    }
+                ]
+
+            },
+            
+
+            {
+                "id":2,
+                "title":"Website Design",
+                "description":"Professional Website Design: Your Digital Presence, Our Drive.",
+                "cta_button_text":"View More",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"Custom designs that stand out"
+                    },
+                    
+                    {
+                        "id":2,
+                        "name":"UX/UI: consistency, feedback, learnability"
+                    },
+
+                    {
+                        "id":3,
+                        "name":"Responsive and mobile-optimized"
+                    },
+
+                    {
+                        "id":4,
+                        "name":"Integrated SEO"
+                    },
+
+                    {
+                        "id":5,
+                        "name":"Web security (SSL)"
+                    }
+                ]
+
+            },
+
+            {
+                "id":3,
+                "title":"AI-Powered Receptionist Assistant",
+                "description":"AI Assistant: 24/7 Efficiency and Service for Your Business.",
+                "cta_button_text":"View More",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"Chatbots & Phonebots"
+                    },
+                    
+                    {
+                        "id":2,
+                        "name":"Scalability"
+                    },
+
+                    {
+                        "id":3,
+                        "name":"CRM and calendar integration"
+                    },
+
+                    {
+                        "id":4,
+                        "name":"Self-learning AI"
+                    },
+
+                    {
+                        "id":5,
+                        "name":"Data privacy"
+                    },
+
+                    {
+                        "id":6,
+                        "name":"Human agent escalation"
+                    },
+
+                    {
+                        "id":7,
+                        "name":"Personalized service"
+                    }
+                ]
+
+            }
+            
+        ]
+        
+    },
+
+    "facts_section":{
+        "facts_section_title":"Data that supports the quality of our work",
+        "facts_list":[
+            {
+                "id":1,
+                "fact_number":"+35",
+                "fact_description":"Satisfied Customers"
+            },
+
+            {
+                "id":2,
+                "fact_number":"+37",
+                "fact_description":"Projects Finished"
+            },
+
+            {
+                "id":3,
+                "fact_number":"+99",
+                "fact_description":"Uptime %"
+            },
+
+            {
+                "id":4,
+                "fact_number":"4",
+                "fact_description":"Max. Response Time (hrs)"
+            }
+         ]
+    },
+
+    "contact_form":{
+        "contact_form_title":"Contact Us",
+        "contact_form_button_text":"Send",
+        "contact_form_items":[
+            {
+                "id":1,
+                "label":"Name",
+                "type":"text",
+                "placeholder":"Name"
+            },
+            {
+                "id":2,
+                "label":"Phone",
+                "type":"text",
+                "placeholder":"+57 3154985621"
+            },
+            {
+                "id":3,
+                "label":"Email",
+                "type":"email",
+                "placeholder":"example@email.com"
+            },
+            {
+                "id":4,
+                "label":"Message",
+                "type":"textarea",
+                "placeholder":"Leave us a message"
+            }
+        ]
+    },
+
+    "social_networks":{
+        "social_title":"Follow Us on Our Social Media",
+        "social_networks_list":[
+            {
+                "id":1,
+                "link":"https://wa.me/13364734969",
+                "img":"img/iconos/whatsapp.png",
+                "target":"_blank",
+                "alt":"Whatsapp"
+            
+            },
+            {
+                "id":2,
+                "link":"https://www.facebook.com/profile.php?id=61577210383492",
+                "img":"img/iconos/facebook.png",
+                "target":"_blank",
+                "alt":"Facebook" 
+            
+            },
+            {
+                "id":3,
+                "link":"https://www.linkedin.com/",
+                "img":"img/iconos/linkedin.png",
+                "target":"_blank",
+                "alt":"Linkedin"
+            
+            },
+            {
+                "id":4,
+                "link":"https://www.instagram.com/agm_business_solution/",
+                "img":"img/iconos/instagram.png",
+                "target":"_blank",
+                "alt":"Instagram"
+            
+            }
+        ]
+    }
+    
+}
+
+

@@ -1,0 +1,81 @@
+{
+    "header": [
+        {
+        "name": "Sobre Nosotros",
+        "href": "#about-us"
+        },
+        {
+        "name": "Servicios",
+         "href": "#services"
+        },
+        {
+        "name": "Contactanos",
+         "href": "#contact-us"
+        }
+    ],
+"footer_section":{
+        "footer_section_title":"Aspectos Legales y de Seguridad",
+        "footer_section_list":[
+            {
+                "id":1,
+                "title":"Política de Privacidad",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"Recopilación, uso y almacenamiento de datos personales."
+                    },
+                    {
+                        "id":2,
+                        "name":"Consentimiento informado para el tratamiento."
+                    },
+                    {
+                        "id":3,
+                        "name":"Manejo de datos sensibles."
+                    },
+                    {
+                        "id":4,
+                        "name":"Supervisión: PRODHAB"
+                    }
+                ]
+            },
+
+            {
+                "id":2,
+                "title":"Seguridad Web",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"Certificados SSL."
+                    },
+                    {
+                        "id":2,
+                        "name":"Protección contra malware."
+                    },
+                    {
+                        "id":3,
+                        "name":"Pagos seguros."
+                    }
+                   
+                ]
+            },
+
+            {
+                "id":3,
+                "title":"Términos y Condiciones",
+                "items":[
+                    {
+                        "id":1,
+                        "name":"Mostrados antes de las transacciones."
+                    },
+                    {
+                        "id":2,
+                        "name":"Pago, entrega, reclamaciones, desistimiento, garantías."
+                    }
+                   
+                ]
+            }
+        ]
+    
+      
+    }
+}

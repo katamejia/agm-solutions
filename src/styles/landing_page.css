@@ -58,7 +58,7 @@ body {
   text-align: center;
   position: relative;
   padding: 20px;
-  background-image: url('../img/img_inicio.jpg');
+  background-image: url('/img/img_inicio.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -386,7 +386,7 @@ body {
 }
 
 .pricing-plan.most-popular .plan-description {
-    color: rgba(255, 255, 255, 0.9); /
+    color: rgba(255, 255, 255, 0.9); 
 }
 
 
