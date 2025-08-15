@@ -45,7 +45,7 @@ const FactsSection = () => {
         <h3 className="section-title">{t("facts_section.facts_section_title")}</h3>
         <div className="facts-underline"></div>
         <div className="facts-grid">
-          {factsList.map((fact: any) => (
+          {factsList?.map((fact: any) => (
             <div className="fact-item">
               <span className="fact-number">{fact.fact_number}</span>
               <p className="fact-description">{fact.fact_description}</p>

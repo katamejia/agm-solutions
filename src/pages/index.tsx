@@ -7,7 +7,6 @@ import AboutUs from "../components/molecules/home/AboutUs";
 import Services from "../components/molecules/home/Services";
 import FactsSection from "../components/molecules/home/FactsSection";
 import ContactUs from "../components/organisms/home/ContactUs";
-import Social from "../components/atoms/menu/Social";
 
 export async function getServerSideProps({ locale }: { locale: string }) {
   return {
@@ -26,10 +25,7 @@ const LandingPage = ({ locale }: { locale: string }) => {
       <AboutUs />
       <Services routerLocale={routerLocale} />
       <FactsSection />
-      <section id="contact-us" className="form">
-        <ContactUs />
-        <Social />
-      </section>
+      <ContactUs />
     </AppLayout>
   );
 };

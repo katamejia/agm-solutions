@@ -1,18 +1,74 @@
 {
-    "header": [
-        {
-        "name": "About Us",
-        "href": "#about-us"
-        },
-        {
-        "name": "Services",
-         "href": "#services"
-        },
-        {
-        "name": "Contact Us",
-         "href": "#contact-us"
-        }
-    ],
+   
+
+    "contact_form":{
+        "contact_form_title":"Contact Us",
+        "contact_form_button_text":"Send",
+        "contact_form_items":[
+            {
+                "id":1,
+                "label":"Name",
+                "type":"text",
+                "placeholder":"Name"
+            },
+            {
+                "id":2,
+                "label":"Phone",
+                "type":"text",
+                "placeholder":"+57 3154985621"
+            },
+            {
+                "id":3,
+                "label":"Email",
+                "type":"email",
+                "placeholder":"example@email.com"
+            },
+            {
+                "id":4,
+                "label":"Message",
+                "type":"textarea",
+                "placeholder":"Leave us a message"
+            }
+        ]
+    },
+
+    "social_networks":{
+        "social_title":"Follow Us on Our Social Media",
+        "social_networks_list":[
+            {
+                "id":1,
+                "link":"https://wa.me/13364734969",
+                "img":"img/iconos/whatsapp.png",
+                "target":"_blank",
+                "alt":"Whatsapp"
+            
+            },
+            {
+                "id":2,
+                "link":"https://www.facebook.com/profile.php?id=61577210383492",
+                "img":"img/iconos/facebook.png",
+                "target":"_blank",
+                "alt":"Facebook" 
+            
+            },
+            {
+                "id":3,
+                "link":"https://www.linkedin.com/",
+                "img":"img/iconos/linkedin.png",
+                "target":"_blank",
+                "alt":"Linkedin"
+            
+            },
+            {
+                "id":4,
+                "link":"https://www.instagram.com/agm_business_solution/",
+                "img":"img/iconos/instagram.png",
+                "target":"_blank",
+                "alt":"Instagram"
+            
+            }
+        ]
+    },
 
     "footer_section":{
         "footer_section_title":"Legal and Security Aspects",

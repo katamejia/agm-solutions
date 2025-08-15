@@ -1,5 +1,20 @@
 {
-    
+    "header": [
+        {
+        "name": "Sobre Nosotros",
+        "href": "#about-us"
+        },
+        {
+        "name": "Servicios",
+         "href": "#services"
+        },
+        {
+        "name": "Contactanos",
+         "href": "#contact-us"
+        }
+    ],
+
+
     "main": {
         "main_title": "Soluciones Empresariales Integrales",
         "main_subtitle": "Optimiza Tu Empresa",
@@ -21,6 +36,7 @@
                 "title":"Cursos de Capacitación en Línea",
                 "description":"Impulsa tu Talento y tu Negocio.",
                 "cta_button_text":"Ver mas",
+                "href":"/online-courses",
                 "items":[
                     {
                         "id":1,
@@ -60,6 +76,7 @@
                 "title":"Diseño de Sitios Web",
                 "description":"Diseño Profesional de Sitios Web: Tu Presencia Digital, Nuestra Motivación.",
                 "cta_button_text":"Ver mas",
+                "href":"/",
                 "items":[
                     {
                         "id":1,
@@ -94,6 +111,7 @@
                 "title":"Asistente Recepcionista Potenciado por IA",
                 "description":"Asistente con IA: Eficiencia y Servicio 24/7 para Tu Negocio.",
                 "cta_button_text":"Ver mas",
+                "href":"/receptionist-ai",
                 "items":[
                     {
                         "id":1,
@@ -165,77 +183,7 @@
                 "fact_description":"Tiempo máximo de respuesta (horas)"
             }
          ]
-    },
-
-    "contact_form":{
-        "contact_form_title":"Contáctanos",
-        "contact_form_button_text":"Enviar",
-        "contact_form_items":[
-            {
-                "id":1,
-                "label":"Nombre",
-                "type":"text",
-                "placeholder":"Nombre"
-            },
-            {
-                "id":2,
-                "label":"Telefono",
-                "type":"text",
-                "placeholder":"+57 3154985621"
-            },
-            {
-                "id":3,
-                "label":"Correo",
-                "type":"email",
-                "placeholder":"ejemplo@email.com"
-            },
-            {
-                "id":4,
-                "label":"Mensaje",
-                "type":"textarea",
-                "placeholder":"Déjanos un mensaje"
-            }
-        ]
-    },
-
-    "social":{
-        "social_title":"Síguenos en nuestras redes sociales",
-        "social_networks_list":[
-            {
-                "id":1,
-                "link":"https://wa.me/13364734969",
-                "img":"img/iconos/whatsapp.png",
-                "target":"_blank",
-                "alt":"Whatsapp"
-            
-            },
-            {
-                "id":2,
-                "link":"https://www.facebook.com/profile.php?id=61577210383492",
-                "img":"img/iconos/facebook.png",
-                "target":"_blank",
-                "alt":"Facebook" 
-            
-            },
-            {
-                "id":3,
-                "link":"https://www.linkedin.com/",
-                "img":"img/iconos/linkedin.png",
-                "target":"_blank",
-                "alt":"Linkedin"
-            
-            },
-            {
-                "id":4,
-                "link":"https://www.instagram.com/agm_business_solution/",
-                "img":"img/iconos/instagram.png",
-                "target":"_blank",
-                "alt":"Instagram"
-            
-            }
-        ]
     }
-    
 }
 
 

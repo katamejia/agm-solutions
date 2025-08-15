@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useTranslation } from "next-i18next";
 
 const Social = () => {
-  const { t } = useTranslation("home");
+  const { t } = useTranslation("common");
 
   const socialNetworks: any = t("social_networks.social_networks_list", {
     returnObjects: true,

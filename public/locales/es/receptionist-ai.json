@@ -1,0 +1,38 @@
+{
+    "main_title":"AI-Powered Receptionist Assistant",
+    "plans":[
+        {
+        "id":1,
+        "name": "BASICO",
+        "price": "$299 USD / mes",
+        "features":[
+               "Preguntas y Respuestas",
+                "Reserva de citas",
+                "SMS - Resumen de llamada / fecha de cita",
+                "Informes web"
+        ]
+    },
+    {
+        "id":2,
+        "name": "PROFESIONAL",
+        "price": "$499 USD / mes",
+        "features": [
+               "Todo lo del Básico",
+               "Integración con CRM",
+                "Asistente personal",
+                "Reserva de citas"
+        ]
+    },
+    {
+        "id":3,
+        "name": "EMPRESARIAL",
+        "price": "$1000 USD / mes",
+        "features": [
+               "Todo lo del Profesional",
+                "Autenticación",
+                "Flujos personalizados",
+                "Acceso a API"
+        ]
+    }
+    ]
+}

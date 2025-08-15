@@ -1,14 +1,17 @@
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
-import { Fragment, useEffect } from "react";
+import { Fragment, useEffect, useState } from "react";
+import Image from "next/image";
 
 const Menu = () => {
-  const { t } = useTranslation("common");
-  const { locale: routerLocale, locales , pathname, push} = useRouter();
+  const { t } = useTranslation("home");
+  const { locale: routerLocale, locales, pathname, push } = useRouter();
   const menuOptions = t("header", {
     returnObjects: true,
   });
+
+  const [selectedLanguage, setSelectedLanguage] = useState("");
 
   //mobile menu
   useEffect(() => {
@@ -47,16 +50,15 @@ const Menu = () => {
     return () => anchors.forEach((a) => a.removeEventListener("click", handleClick));
   }, []);
 
-  const onChangeLanguage=(selectedLanguage:string)=>{
-    const newUrl={
-      pathname:pathname
-    }
-    push(
-      newUrl,undefined,{
-       locale:selectedLanguage
-      }
-    )
-  } 
+  const onChangeLanguage = (selectedLanguage: string) => {
+    setSelectedLanguage(selectedLanguage);
+    const newUrl = {
+      pathname: pathname,
+    };
+    push(newUrl, undefined, {
+      locale: selectedLanguage,
+    });
+  };
 
   return (
     <Fragment>
@@ -76,11 +78,21 @@ const Menu = () => {
           ))}
         </ul>
       </nav>
-      {locales?.map((language:string) =>(
-        <button onClick={()=>onChangeLanguage(language)} type="button">
-          {language}
-        </button>
-      ))}
+      <div className="language-button">
+        {locales?.map((language: string) => (
+          <button
+            className={`language-button-selection ${selectedLanguage === language ? "active-language" : ""}`}
+            onClick={() => onChangeLanguage(language)}
+            type="button"
+          >
+            {selectedLanguage === language && (
+              <Image src="/img/iconos/language.gif" alt="language" width={20} height={20} />
+            )}
+
+            {language}
+          </button>
+        ))}
+      </div>
     </Fragment>
   );
 };
