@@ -20,7 +20,7 @@ const LandingPage = ({ locale }: { locale: string }) => {
   const { locale: routerLocale } = useRouter();
 
   return (
-    <AppLayout>
+    <AppLayout isMainMenu>
       <MainBanner routerLocale={routerLocale} />
       <AboutUs />
       <Services routerLocale={routerLocale} />

@@ -1,5 +1,15 @@
 {
    
+"header": [
+        {
+        "name": "Inicio",
+         "href": "/"
+        },
+        {
+        "name": "Contáctanos",
+         "href": "#contact-us"
+        }
+    ],
 
 "contact_form":{
         "contact_form_title":"Contáctanos",

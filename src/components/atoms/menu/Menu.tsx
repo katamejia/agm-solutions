@@ -1,17 +1,16 @@
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
+import { Fragment, useEffect } from "react";
 import { useRouter } from "next/router";
-import { Fragment, useEffect, useState } from "react";
-import Image from "next/image";
 
-const Menu = () => {
-  const { t } = useTranslation("home");
-  const { locale: routerLocale, locales, pathname, push } = useRouter();
-  const menuOptions = t("header", {
+const Menu = ({ isMainMenu }: any) => {
+  const { t } = useTranslation(isMainMenu ? "home" : "common");
+
+  const menuOptions:any = t("header", {
     returnObjects: true,
   });
 
-  const [selectedLanguage, setSelectedLanguage] = useState("");
+  const { locale: routerLocale } = useRouter();
 
   //mobile menu
   useEffect(() => {
@@ -37,7 +36,7 @@ const Menu = () => {
   //Click animation on the menu
   useEffect(() => {
     const anchors = document.querySelectorAll('a[href^="#"]');
-    const handleClick = (e) => {
+    const handleClick = (e:any) => {
       e.preventDefault();
       const target = document.querySelector(e.currentTarget.getAttribute("href"));
       if (target) {
@@ -49,16 +48,6 @@ const Menu = () => {
     anchors.forEach((a) => a.addEventListener("click", handleClick));
     return () => anchors.forEach((a) => a.removeEventListener("click", handleClick));
   }, []);
-
-  const onChangeLanguage = (selectedLanguage: string) => {
-    setSelectedLanguage(selectedLanguage);
-    const newUrl = {
-      pathname: pathname,
-    };
-    push(newUrl, undefined, {
-      locale: selectedLanguage,
-    });
-  };
 
   return (
     <Fragment>
@@ -78,21 +67,6 @@ const Menu = () => {
           ))}
         </ul>
       </nav>
-      <div className="language-button">
-        {locales?.map((language: string) => (
-          <button
-            className={`language-button-selection ${selectedLanguage === language ? "active-language" : ""}`}
-            onClick={() => onChangeLanguage(language)}
-            type="button"
-          >
-            {selectedLanguage === language && (
-              <Image src="/img/iconos/language.gif" alt="language" width={20} height={20} />
-            )}
-
-            {language}
-          </button>
-        ))}
-      </div>
     </Fragment>
   );
 };

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
 
+
 const Social = () => {
   const { t } = useTranslation("common");
 

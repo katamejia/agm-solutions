@@ -8,7 +8,7 @@ const CoursesList = () => {
 
   return (
     <div className="courses-list">
-      {courses.map((course, index) => (
+      {courses.map((course:any, index:number) => (
         <div className="courses-list-details" key={index}>
           <h2>{course.title}</h2>
           <ul>

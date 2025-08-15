@@ -1,5 +1,15 @@
 {
    
+    "header": [
+        {
+        "name": "Home",
+         "href": "/"
+        },
+        {
+        "name": "Contact Us",
+         "href": "#contact-us"
+        }
+    ],
 
     "contact_form":{
         "contact_form_title":"Contact Us",

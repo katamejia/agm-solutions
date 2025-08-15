@@ -10,12 +10,12 @@ const PlansList = () => {
     <section className="IA">
      
       <div className="IA-plan">
-        {plans.map((plan, idx) => (
+        {plans.map((plan:any, idx:number) => (
           <div className="IA-plan-details" key={idx}>
             <h2>{plan.name}</h2>
             <p>{plan.price}</p>
             <ul>
-              {plan.features.map((feat, i) => (
+              {plan.features.map((feat:any, i:any) => (
                 <li key={i}>
                   <i className="fas fa-check-circle"></i> {feat}
                 </li>
