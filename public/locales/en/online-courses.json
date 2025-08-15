@@ -1,0 +1,105 @@
+{
+    "main_title":"Online Training Courses",
+    "courses":[
+        {
+        "id":1,    
+        "title": "Digital Transformation",
+        "code": "01B01C01",
+        "price": "$199 USD",
+        "teacher": "$399 USD",
+        "level": "Average",
+        "geo": "General",
+        "hours": "40"
+        },
+        {
+        "id":2, 
+        "title": "Internal Change in Digital Transformation",
+        "code": "01B01C05",
+        "price": "$149 USD",
+        "teacher": "$399 USD",
+        "level": "Average",
+        "geo": "General",
+        "hours": "30"
+        },
+        {
+        "id":3,  
+        "title": "Agile Leadership in Digital Transformation",
+        "code": "01B01C06",
+        "price": "$99 USD",
+        "teacher": "$299 USD",
+        "level": "Average",
+        "geo": "General",
+        "hours": "15"
+        },
+        {
+        "id":4,    
+        "title": "HR and Its Role in Digital Transformation",
+        "code": "01B01C07",
+        "price": "$99",
+        "teacher": "$299 USD",
+        "level": "Average",
+        "geo": "General",
+        " hours": "20"
+        },
+        {
+        "id":5, 
+        "title": "Digital Transformation for SMEs",
+        "code": "01B03C01",
+        "price": "$399 USD",
+        "teacher": "$699 USDD",
+        "level": "Average",
+        "geo": "General",
+        " hours": "115"
+        },
+        {
+        "id":6, 
+        "title": "The Company in the Digital Economyls",
+         "code": "01B03C02",
+        "price": "$99 USD",
+         "teacher": "$299 USD",
+         "level": "Average",
+        "geo": "General",
+        " hours": "30"
+         },
+         {
+        "id":7, 
+         "title": "Transforming the Customer Experienc",
+        "code": "01B03C03",
+        "price": "$199 USD",
+        "teacher": "$399 USD",
+        "level": "Average",
+        "geo": "General",
+        " hours": "30"
+        },
+        {
+        "id":8, 
+        "title": "Technologically Enabling the Transformation",
+        "code": "01B03C04",
+        "price": "$199 USD",
+        "teacher": "$399 USD",
+        "level": "Average",
+        "geo": "General",
+         " hours": "30"
+        },
+        {
+        "id":9, 
+        "title": "Managing Change",
+        "code": "01B03C05",
+        "price": "$99 USD",
+        "teacher": "$299 USD",
+        "level": "Average",
+        "geo": "General",
+        " hours": "8"
+        },
+        {
+       "id":10, 
+        "title": "Developing the Digital Transformation Plan",
+        "code": "01B03C06",
+        "price": "$99 USD",
+        "teacher": "$299 USD",
+        "level": "Average",
+        "geo": "General",
+        " hours": "25"
+        }
+    ]
+}

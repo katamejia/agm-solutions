@@ -1,0 +1,105 @@
+{   
+    "main_title":"Cursos de Capacitación en Línea",
+    "courses":[
+        {
+        "id":1,    
+        "title": "Transformación Digital",
+        "code": "01B01C01",
+        "price": "$199 USD",
+        "teacher": "$399 USD",
+        "level": "Intermedio",
+        "geo": "General",
+        "hours": "40"
+        },
+        {
+        "id":2, 
+        "title": "Cambio Interno en la Transformación Digital",
+        "code": "01B01C05",
+        "price": "$149 USD",
+        "teacher": "$399 USD",
+        "level": "Intermedio",
+        "geo": "General",
+        "hours": "30"
+        },
+        {
+        "id":3,  
+        "title": "Liderazgo Ágil en la Transformación Digital",
+        "code": "01B01C06",
+        "price": "$99 USD",
+        "teacher": "$299 USD",
+        "level": "Intermedio",
+        "geo": "General",
+        "hours": "15"
+        },
+        {
+        "id":4,    
+        "title": "RR. HH. y su Papel en la Transformación Digital",
+        "code": "01B01C07",
+        "price": "$99",
+        "teacher": "$299 USD",
+        "level": "Intermedio",
+        "geo": "General",
+        " hours": "20"
+        },
+        {
+        "id":5, 
+        "title": "Transformación Digital para PYMES",
+        "code": "01B03C01",
+        "price": "$399 USD",
+        "teacher": "$699 USDD",
+        "level": "Intermedio",
+        "geo": "General",
+        " hours": "115"
+        },
+        {
+        "id":6, 
+        "title": "La Empresa en la Economía Digital",
+         "code": "01B03C02",
+        "price": "$99 USD",
+         "teacher": "$299 USD",
+         "level": "Intermedio",
+        "geo": "General",
+        " hours": "30"
+         },
+         {
+        "id":7, 
+         "title": "Transformando la Experiencia del Cliente",
+        "code": "01B03C03",
+        "price": "$199 USD",
+        "teacher": "$399 USD",
+        "level": "Intermedio",
+        "geo": "General",
+        " hours": "30"
+        },
+        {
+        "id":8, 
+        "title": "Habilitando Tecnológicamente la Transformación",
+        "code": "01B03C04",
+        "price": "$199 USD",
+        "teacher": "$399 USD",
+        "level": "Intermedio",
+        "geo": "General",
+         " hours": "30"
+        },
+        {
+        "id":9, 
+        "title": "Gestión del Cambio",
+        "code": "01B03C05",
+        "price": "$99 USD",
+        "teacher": "$299 USD",
+        "level": "Intermedio",
+        "geo": "General",
+        " hours": "8"
+        },
+        {
+       "id":10, 
+        "title": "Desarrollando el Plan de Transformación Digital",
+        "code": "01B03C06",
+        "price": "$99 USD",
+        "teacher": "$299 USD",
+        "level": "Intermedio",
+        "geo": "General",
+        " hours": "25"
+        }
+    ]
+}
