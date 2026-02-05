@@ -1,0 +1,56 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-42372ed130431b0a.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/kgOeYHGNe_tW7ZroSOjcF/_buildManifest.js",
+    "static/kgOeYHGNe_tW7ZroSOjcF/_ssgManifest.js"
+  ],
+  "rootMainFiles": [],
+  "rootMainFilesTree": {},
+  "pages": {
+    "/": [
+      "static/chunks/webpack-8cac0b4b405cede1.js",
+      "static/chunks/framework-7c95b8e5103c9e90.js",
+      "static/chunks/main-79696b5cb624b15e.js",
+      "static/chunks/326-0ec0d1fe300b137a.js",
+      "static/chunks/pages/index-5b05f3b129150a7a.js"
+    ],
+    "/404": [
+      "static/chunks/webpack-8cac0b4b405cede1.js",
+      "static/chunks/framework-7c95b8e5103c9e90.js",
+      "static/chunks/main-79696b5cb624b15e.js",
+      "static/chunks/pages/404-80ea1aab8f8c58ab.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-8cac0b4b405cede1.js",
+      "static/chunks/framework-7c95b8e5103c9e90.js",
+      "static/chunks/main-79696b5cb624b15e.js",
+      "static/css/9cc57230c32b48df.css",
+      "static/chunks/pages/_app-b5bc0d5a69475536.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-8cac0b4b405cede1.js",
+      "static/chunks/framework-7c95b8e5103c9e90.js",
+      "static/chunks/main-79696b5cb624b15e.js",
+      "static/chunks/pages/_error-e15c84159987e7e6.js"
+    ],
+    "/online-courses": [
+      "static/chunks/webpack-8cac0b4b405cede1.js",
+      "static/chunks/framework-7c95b8e5103c9e90.js",
+      "static/chunks/main-79696b5cb624b15e.js",
+      "static/chunks/326-0ec0d1fe300b137a.js",
+      "static/chunks/pages/online-courses-299a9ca9ad438754.js"
+    ],
+    "/receptionist-ai": [
+      "static/chunks/webpack-8cac0b4b405cede1.js",
+      "static/chunks/framework-7c95b8e5103c9e90.js",
+      "static/chunks/main-79696b5cb624b15e.js",
+      "static/chunks/326-0ec0d1fe300b137a.js",
+      "static/chunks/pages/receptionist-ai-5133de8f786d00e8.js"
+    ]
+  },
+  "ampFirstPages": []
+}
