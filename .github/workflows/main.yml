@@ -3,7 +3,7 @@ name: Deploy to Firebase Hosting
 on:
   push:
     branches:
-      - v2.0
+      - main
 
 concurrency:
   group: firebase-hosting-main
@@ -14,24 +14,17 @@ permissions:
 
 jobs:
   deploy:
-    name: Build & Deploy
+    name: Deploy
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
-
-      # If this is a pure static site (no build step), we only need Firebase CLI.
+      # No Node cache / no lockfile needed for a static site
       - name: Install Firebase CLI
         run: npm i -g firebase-tools
 
-      # Deploy using a token stored in GitHub Secrets as FIREBASE_TOKEN
       - name: Deploy to Firebase Hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
