@@ -1,316 +1,496 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AGM Solutions</title>
-    <link rel="stylesheet" href="css/landing_page.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./img/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./img/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./img/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./img/favicon/site.webmanifest" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="logo">
-          <img src="img/logo/logo.png" alt="Logo AGM" />
-        </div>
-        <div class="menu-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <nav class="nav">
-          <ul>
-            <li><a href="#id_nosotros">About</a></li>
-            <li><a href="#id_servicios">Services</a></li>
-            <li><a href="#id_contactanos">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+<html lang="en" data-theme="auto">
 
-    <main class="main-content">
-      <div class="container">
-        <h2 class="title">
-          Integral Business Solutions<br />
-          "Optimize Your Company"
-        </h2>
-        <a href="#id_contactanos" class="contact-button">CONTACT US NOW</a>
-      </div>
-    </main>
-    <section id="id_nosotros" class="about-section">
-      <div class="container">
-        <h3 class="section-title">About Us</h3>
-        <div class="title-underline"></div>
-        <div class="about-content"></div>
-        <p class="about-text">
-          At AGM Business Solutions, we are a strategic partner in<br />
-          digital transformation. We offer comprehensive solutions in training,
-          web design, artificial intelligence, and business consulting. Our
-          focus is on creating value, building trust, and connecting with
-          companies, entrepreneurs, leaders, and public organizations seeking to
-          innovate and grow.<br />
-          We drive growth and innovation in your organization; combining
-          technology, strategy, and expertise to help you face today's
-          challenges with effective and personalized tools.
-        </p>
-      </div>
-      <div class="image-slideshow">
-        <img src="img/img1.jpg" alt="About Us" class="active" />
-        <img src="img/img2.jpg" alt="About Us" />
-        <img src="img/img3.jpg" alt="About Us" />
-      </div>
-    </section>
-    <section id="id_servicios" class="pricing-section">
-      <div class="container">
-        <h3 class="section-title">Our Services</h3>
-        <div class="section-title-underline"></div>
-        <div class="pricing-grid">
-          <div class="pricing-plan">
-            <h4 class="plan-title">Online Training Courses</h4>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AGM Business Solutions | Integral Business Solutions</title>
 
-            <p class="plan-description">Boost Your Talent and Your Business.</p>
-            <ul class="features-list">
-              <li><i class="fas fa-check-circle"></i>Public Innovation</li>
-              <li><i class="fas fa-check-circle"></i>Govtech</li>
-              <li><i class="fas fa-check-circle"></i>Digital Transformation</li>
-              <li><i class="fas fa-check-circle"></i>Gender Perspective</li>
-              <li>
-                <i class="fas fa-check-circle"></i>Environmental Protection
-              </li>
-              <li>
-                <i class="fas fa-check-circle"></i>Attention to Children /
-                Adolescents and Responsible Parenting
-              </li>
-            </ul>
-            <a href="online_curses.html" class="plan-button">
-              View More <i class="fas fa-arrow-right"></i>
-            </a>
-          </div>
+  <meta name="description"
+    content="AGM Business Solutions: training, web design, AI solutions, and business consulting to drive innovation and growth." />
+  <meta name="theme-color" content="#0b1b2b" />
 
-          <div class="pricing-plan">
-            <h4 class="plan-title">
-              Website<br />
-              Design
-            </h4>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-            <p class="plan-description">
-              Professional Website Design: Your Digital Presence, Our Drive
-            </p>
-            <ul class="features-list">
-              <li>
-                <i class="fas fa-check-circle"></i>Custom designs that stand out
-              </li>
-              <li>
-                <i class="fas fa-check-circle"></i>Focus on User Experience (UX)
-                and Usability (UI): consistency, affordance, predictability,
-                feedback, learnability
-              </li>
-              <li>
-                <i class="fas fa-check-circle"></i>Responsive design and mobile
-                optimization
-              </li>
-              <li>
-                <i class="fas fa-check-circle"></i>Integrated Search Engine
-                Optimization (SEO)
-              </li>
-              <li>
-                <i class="fas fa-check-circle"></i>
-                Web security (SSL certificates)
-              </li>
-            </ul>
-            <button class="plan-button">
-              View More <i class="fas fa-arrow-right"></i>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./img/favicon/site.webmanifest" />
+
+  <link rel="preload" href="./style.css" as="style" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="header" data-elevate>
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="AGM Business Solutions - Home">
+        <img src="./img/logo/logo.png" alt="AGM logo" width="140" height="44" />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"
+        aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#id_nosotros">About</a></li>
+          <li><a href="#id_servicios">Services</a></li>
+          <li><a href="#testimonios">Testimonials</a></li>
+          <li><a class="nav-cta" href="#id_contactanos">Contact</a></li>
+
+          <!-- Theme toggle AFTER Contact -->
+          <li class="nav-theme">
+            <button class="theme-toggle" type="button" aria-label="Toggle theme" aria-pressed="false"
+              title="Theme: auto">
+              <i class="fa-solid fa-moon" aria-hidden="true"></i>
+              <span class="sr-only">Toggle theme</span>
             </button>
-          </div>
-
-          <div class="pricing-plan">
-            <h4 class="plan-title">AI-Powered Receptionist Assistant</h4>
-
-            <p class="plan-description">
-              AI Assistant/Receptionist: 24/7 Efficiency and Service for Your
-              Business.
-            </p>
-            <ul class="features-list">
-              <li>
-                <i class="fas fa-check-circle"></i>Chatbots and Phonebots
-                (omnichannel interaction)
-              </li>
-              <li>
-                <i class="fas fa-check-circle"></i>Scalability to handle high
-                volumes of inquiries
-              </li>
-              <li>
-                <i class="fas fa-check-circle"></i>Integration with existing
-                tools (CRM, calendars)
-              </li>
-              <li>
-                <i class="fas fa-check-circle"></i>Continuous self-learning and
-                adaptability
-              </li>
-              <li>
-                <i class="fas fa-check-circle"></i>Data security and privacy
-              </li>
-              <li>
-                <i class="fas fa-check-circle"></i>Escalation capabilities to
-                human agents
-              </li>
-              <li>
-                <i class="fas fa-check-circle"></i>Personalized interactions
-              </li>
-            </ul>
-            <a href="receptionis_ai.html" class="plan-button">
-              View More <i class="fas fa-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="facts-section">
-      <div class="container">
-        <h3 class="section-title">
-          Data that supports the quality of our work
-        </h3>
-        <div class="facts-underline"></div>
-        <div class="facts-grid">
-          <div class="fact-item">
-            <span class="fact-number">+35</span>
-            <p class="fact-description">Satisfied Customers</p>
-          </div>
-          <div class="fact-item">
-            <span class="fact-number">+37</span>
-            <p class="fact-description">Projects Successfully Finished</p>
-          </div>
-          <div class="fact-item">
-            <span class="fact-number">+99</span>
-            <p class="fact-description">Uptime %</p>
-          </div>
-          <div class="fact-item">
-            <span class="fact-number">4</span>
-            <p class="fact-description">Hours Max. Response Time</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="id_contactanos" class="form">
-      <div>
-        <h2>Contact Us</h2>
-        <div class="form-underline"></div>
-        <form class="form-form">
-          <ul class="form-fields">
-            <li>
-              <label class="form-name">Name</label>
-              <input type="name" placeholder="Nombre" />
-            </li>
-            <li>
-              <label class="form-name">Phone</label>
-              <input type="phone" placeholder="+57 3154985621" />
-            </li>
-            <li>
-              <label class="form-name">Email</label>
-              <input type="email" placeholder="ejemplo@email.com" />
-            </li>
-            <li>
-              <label class="form-name">Menssage</label>
-              <textarea placeholder="Dejanos un mensaje"> </textarea>
-            </li>
-            <li>
-              <button type="submit" class="form-button">Send</button>
-            </li>
-          </ul>
-        </form>
-      </div>
-      <div class="social">
-        <p>Follow Us on Our Social Media</p>
-        <ul class="social-networks">
-          <li>
-            <a target="_blank" class="contact" href="https://wa.me/13364734969">
-              <img src="img/iconos/whatsapp.png" alt="Logo whatsapp AGM" />
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              class="contact"
-              href="https://www.facebook.com/profile.php?id=61577210383492"
-              ><img src="img/iconos/facebook.png" alt="Logo Facebook AGM" />
-            </a>
-          </li>
-          <li>
-            <a target="_blank" class="contact" href="https://www.linkedin.com/"
-              ><img src="img/iconos/linkedin.png" alt="Logo Linkedin AGM" />
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              class="contact"
-              href="https://www.instagram.com/agm_business_solution/"
-              ><img src="img/iconos/instagram.png" alt="Logo Instagram AGM" />
-            </a>
           </li>
         </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+
+          <h1 class="hero-title">
+            Integral Business Solutions<br />
+            <span class="hero-accent">Optimize Your Company</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            AGM Business Solutions helps organizations modernize operations with
+            strategic consulting, high-quality training, conversion-driven web design,
+            and AI assistants that scale service 24/7.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#id_contactanos" class="btn btn-primary">
+              Contact us now <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#id_servicios" class="btn btn-ghost">View services</a>
+          </div>
+
+          <div class="trust-row" aria-label="Trust indicators">
+            <div class="trust-pill">
+              <i class="fa-solid fa-user-check"></i>
+              <span><strong>+35</strong> Customers</span>
+            </div>
+            <div class="trust-pill">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span><strong>+37</strong> Projects</span>
+            </div>
+            <div class="trust-pill">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span><strong>+99%</strong> Uptime</span>
+            </div>
+            <div class="trust-pill">
+              <i class="fa-solid fa-clock"></i>
+              <span><strong>≤4h</strong> Response</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card" role="region" aria-label="Quick contact panel">
+          <h2 class="hero-card-title">Get a free assessment</h2>
+          <p class="hero-card-subtitle">
+            Tell us what you need and we’ll reply with the best next steps.
+          </p>
+
+          <ul class="hero-bullets">
+            <li><i class="fa-solid fa-check"></i> Roadmap + quick wins</li>
+            <li><i class="fa-solid fa-check"></i> Budget-friendly options</li>
+            <li><i class="fa-solid fa-check"></i> Clear timeline & deliverables</li>
+          </ul>
+
+          <a class="btn btn-secondary" href="#id_contactanos">
+            Request proposal <i class="fa-solid fa-paper-plane"></i>
+          </a>
+
+          <p class="mini-note">
+            <i class="fa-solid fa-lock"></i>
+            We respect your data and privacy.
+          </p>
+        </div>
       </div>
     </section>
-    <footer class="footer-legal-security">
-      <section>
-        <h2>Legal and Security Aspects</h2>
-      </section>
-      <section class="footer-legal-security-content">
+
+    <!-- ABOUT -->
+    <section id="id_nosotros" class="section about-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">About AGM</h2>
+          <div class="title-underline" aria-hidden="true"></div>
+          <p class="section-lead">
+            A strategic partner for organizations seeking innovation, growth, and trust.
+          </p>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              At AGM Business Solutions, we are a strategic partner in digital transformation.
+              We offer comprehensive solutions in training, web design, artificial intelligence,
+              and business consulting.
+            </p>
+            <p>
+              Our focus is on creating value, building trust, and connecting with companies,
+              entrepreneurs, leaders, and public organizations seeking to innovate and grow.
+            </p>
+
+            <div class="about-highlights" aria-label="Key benefits">
+              <div class="highlight">
+                <i class="fa-solid fa-sitemap"></i>
+                <div>
+                  <strong>Strategy-first</strong>
+                  <span>We align technology with your business goals.</span>
+                </div>
+              </div>
+              <div class="highlight">
+                <i class="fa-solid fa-laptop-code"></i>
+                <div>
+                  <strong>Modern execution</strong>
+                  <span>Fast, responsive, ready for delivery.</span>
+                </div>
+              </div>
+              <div class="highlight">
+                <i class="fa-solid fa-robot"></i>
+                <div>
+                  <strong>Innovation</strong>
+                  <span>Latest technological platforms for scalable systems.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slideshow" aria-label="AGM slideshow">
+            <div class="slideshow-frame">
+              <img src="./img/shop-1.png" alt="AGM image 1" class="slide active" loading="lazy" decoding="async" />
+              <img src="./img/dyniq-1.png" alt="AGM image 2" class="slide" loading="lazy" decoding="async" />
+              <img src="./img/img3.png" alt="AGM image 3" class="slide" loading="lazy" decoding="async" />
+            </div>
+
+            <div class="slideshow-controls">
+              <button class="icon-btn" type="button" data-slide="prev" aria-label="Previous">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <div class="dots" role="tablist" aria-label="Slide selectors">
+                <button class="dot active" type="button" data-slide-to="0" aria-label="Slide 1"></button>
+                <button class="dot" type="button" data-slide-to="1" aria-label="Slide 2"></button>
+                <button class="dot" type="button" data-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <button class="icon-btn" type="button" data-slide="next" aria-label="Next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="id_servicios" class="section services-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Our Services</h2>
+          <div class="title-underline" aria-hidden="true"></div>
+          <p class="section-lead">
+            Choose a service package—or mix and match—to accelerate results.
+          </p>
+        </header>
+
+        <div class="services-grid">
+          <article class="card">
+            <div class="card-top">
+              <h3 class="card-title">Online Training Courses</h3>
+              <p class="card-subtitle">Boost your talent and your business.</p>
+            </div>
+            <ul class="list">
+              <li><i class="fas fa-check-circle"></i> Public Innovation</li>
+              <li><i class="fas fa-check-circle"></i> Govtech</li>
+              <li><i class="fas fa-check-circle"></i> Digital Transformation</li>
+              <li><i class="fas fa-check-circle"></i> Gender Perspective</li>
+              <li><i class="fas fa-check-circle"></i> Environmental Protection</li>
+              <li><i class="fas fa-check-circle"></i> Children / Adolescents and Responsible Parenting</li>
+            </ul>
+            <a class="btn btn-outline" href="./online_curses.html">
+              View more <i class="fas fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3 class="card-title">Pro Shop - Shop Management System</h3>
+              <p class="card-subtitle">Run your entire shop from one dashboard—customers, RO workflow, scheduling, and
+                finance.</p>
+            </div>
+
+            <ul class="list">
+              <li><i class="fas fa-check-circle"></i> Productivity Dashboard (RO in shop, active technicians, efficiency
+                tracking)</li>
+              <li><i class="fas fa-check-circle"></i> Technician workflow statuses (assigned, in processing, completed,
+                waiting for parts)</li>
+              <li><i class="fas fa-check-circle"></i> Customer & Vehicle CRM (profiles, balances, quick actions for RO
+                and statements)</li>
+              <li><i class="fas fa-check-circle"></i> Appointment Scheduling (day/week/month calendar + schedule
+                appointments)</li>
+              <li><i class="fas fa-check-circle"></i> Finance tools (invoices, expenses, reports, pricing rules, and
+                invoice voiding)</li>
+              <li><i class="fas fa-check-circle"></i> Loyalty Program (members, tiers, rewards catalog, points issued &
+                redeemed)</li>
+            </ul>
+
+            <a class="btn btn-outline" href="https://shop.agmbs.com/" target="_blank">
+              Request a Pro Shop demo <i class="fas fa-arrow-right"></i>
+            </a>
+          </article>
+
+
+          <article class="card">
+            <div class="card-top">
+              <h3 class="card-title">Dinyq — AI Agents for Business</h3>
+              <p class="card-subtitle">Deploy specialized AI agents for support, sales, and operations—securely and at
+                scale.</p>
+            </div>
+
+            <ul class="list">
+              <li><i class="fas fa-check-circle"></i> Multi-agent orchestration (one coordinator + specialized agents)
+              </li>
+              <li><i class="fas fa-check-circle"></i> Omnichannel: web chat, WhatsApp, and voice call workflows</li>
+              <li><i class="fas fa-check-circle"></i> Task automation: scheduling, quotes, FAQs, and triage to humans
+              </li>
+              <li><i class="fas fa-check-circle"></i> Knowledge-aware responses (your docs, policies, and product info)
+              </li>
+              <li><i class="fas fa-check-circle"></i> Secure by design (tenant isolation, auditability, role-based
+                access)</li>
+              <li><i class="fas fa-check-circle"></i> Integrations: CRM, calendars, ticketing, and internal tools</li>
+            </ul>
+
+            <a class="btn btn-outline" href="#id_contactanos">
+              Talk to us about Dinyq <i class="fas fa-arrow-right"></i>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonios" class="section testimonials-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Client Testimonials</h2>
+          <div class="title-underline" aria-hidden="true"></div>
+          <p class="section-lead">
+            Real feedback from teams who improved performance with AGM.
+          </p>
+        </header>
+
+        <div class="testimonials-grid">
+          <figure class="quote-card">
+            <blockquote>
+              “AGM helped us modernize our web presence and improve lead capture.
+              The process was clear, fast, and professional.”
+            </blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true">CR</span>
+              <div>
+                <strong>Customer Lead</strong>
+                <span>Professional Services</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="quote-card">
+            <blockquote>
+              “Their training sessions were practical and aligned with our reality.
+              The team immediately applied the improvements.”
+            </blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true">AM</span>
+              <div>
+                <strong>Program Manager</strong>
+                <span>Public Sector</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="quote-card">
+            <blockquote>
+              “We implemented an AI assistant for customer questions and bookings.
+              Response times improved and our staff workload decreased.”
+            </blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true">SB</span>
+              <div>
+                <strong>Operations Owner</strong>
+                <span>SMB</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="id_contactanos" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <header class="section-header left">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="title-underline" aria-hidden="true"></div>
+            <p class="section-lead">
+              Fill out the form and we’ll get back to you shortly.
+            </p>
+          </header>
+
+          <form class="lead-form" id="leadForm" novalidate>
+            <!-- Optional: set to your endpoint (e.g. /api/lead). Leave blank to enable fallback. -->
+            <input type="hidden" id="leadEndpoint" value="" />
+
+            <div class="field-row">
+              <div class="field">
+                <label for="name">Name *</label>
+                <input id="name" name="name" type="text" autocomplete="name" required />
+                <p class="error" data-error-for="name" aria-live="polite"></p>
+              </div>
+
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" />
+                <p class="error" data-error-for="phone" aria-live="polite"></p>
+              </div>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="email">Email *</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+                <p class="error" data-error-for="email" aria-live="polite"></p>
+              </div>
+
+              <div class="field">
+                <label for="company">Company</label>
+                <input id="company" name="company" type="text" autocomplete="organization" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <p class="error" data-error-for="message" aria-live="polite"></p>
+            </div>
+
+            <label class="checkbox">
+              <input id="consent" name="consent" type="checkbox" required />
+              <span>I agree to be contacted regarding my request. *</span>
+            </label>
+            <p class="error" data-error-for="consent" aria-live="polite"></p>
+
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit" id="submitBtn">
+                Send <i class="fa-solid fa-paper-plane"></i>
+              </button>
+              <p class="form-note">
+                If a web endpoint is configured, we submit instantly. Otherwise we open your email client.
+              </p>
+            </div>
+
+            <div class="response-box" id="responseBox" role="status" aria-live="polite" aria-atomic="true"></div>
+            <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+          </form>
+        </div>
+
+        <aside class="social-card" aria-label="Social media links">
+          <h3>Follow Us</h3>
+          <p>Connect with AGM on social media.</p>
+
+          <ul class="social-networks">
+            <li>
+              <a target="_blank" rel="noopener" class="contact" href="https://wa.me/+13364734969">
+                <img src="./img/iconos/whatsapp.png" alt="AGM WhatsApp" loading="lazy" decoding="async" />
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" class="contact"
+                href="https://www.facebook.com/share/1ABxTYG8jF/?mibextid=wwXIfr">
+                <img src="./img/iconos/facebook.png" alt="AGM Facebook" loading="lazy" decoding="async" />
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" class="contact" href="https://www.linkedin.com/">
+                <img src="./img/iconos/linkedin.png" alt="AGM LinkedIn" loading="lazy" decoding="async" />
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" class="contact" href="https://www.instagram.com/agm_business_solution/">
+                <img src="./img/iconos/instagram.png" alt="AGM Instagram" loading="lazy" decoding="async" />
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-legal-security">
+    <div class="container">
+      <h2>Legal and Security Aspects</h2>
+
+      <div class="footer-legal-security-content">
         <div class="footer-legal-security-content-item">
-          <h3><a href="https://agmbs.com/privacy-policy.html">Privacy Policy</a> and <a href="https://agmbs.com/sms-consent.html">SMS Consent</a></h3>
+          <h3>
+            <a href="https://agmbs.com/privacy-policy.html">Privacy Policy</a>
+            and
+            <a href="https://agmbs.com/sms-consent.html">SMS Consent</a>
+          </h3>
           <p>
-            -Inform about the collection, use, and storage of personal data.
-            <br />-Obtain informed consent from the data subject for data
-            processing. <br />-Proper handling of sensitive and
-            restricted-access data. <br />-Mention the Agency for the Protection
-            of Inhabitants' Data (Prodhab) as the regulatory authority.
+            - Inform about the collection, use, and storage of personal data.<br />
+            - Obtain informed consent from the data subject for data processing.<br />
+            - Proper handling of sensitive and restricted-access data.<br />
+            - Mention the Agency for the Protection of Inhabitants' Data (Prodhab) as the regulatory authority.
           </p>
         </div>
 
         <div>
           <h3>Web Security</h3>
           <p>
-            -Implementation of SSL certificates for secure connections. <br />-
-            Systems for protection against malware and cyberattacks. <br />
-            -Ensure the security, integrity, and confidentiality of transactions
-            and payments.
+            - Implementation of SSL certificates for secure connections.<br />
+            - Systems for protection against malware and cyberattacks.<br />
+            - Ensure the security, integrity, and confidentiality of transactions and payments.
           </p>
         </div>
+
         <div>
-          <h3><a href="https://agmbs.com/terms-of-service.html">Terms and Conditions of Service</a></h3>
+          <h3>
+            <a href="https://agmbs.com/terms-of-service.html">Terms and Conditions of Service</a>
+          </h3>
           <p>
-            - Accessible before any purchase or significant interaction.
-            <br />-Specify procedures for payment, delivery, complaints, right
-            of withdrawal, and warranties.
+            - Accessible before any purchase or significant interaction.<br />
+            - Specify procedures for payment, delivery, complaints, right of withdrawal, and warranties.
           </p>
         </div>
-      </section>
-    </footer>
-    <script src="js/landing_page.js"></script>
-  </body>
+      </div>
+
+      <p class="footer-bottom">
+        © <span id="year"></span> AGM Business Solutions. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+
 </html>
